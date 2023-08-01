@@ -1,4 +1,4 @@
- import ehUmCpf from "./valida-cpf";
+ import ehUmCpf from "./valida-cpf.js";
 
 const camposDoFormulario = document.querySelectorAll("[required]");
 
@@ -7,7 +7,9 @@ camposDoFormulario.forEach((campo) => {
 })
 
 function verificaCampo(campo){
-    console.log(campo);
+    if (campo.value == cpf) {
+        
+    }
 }
 
 
