@@ -4,7 +4,6 @@ camposDoFormulario.forEach((campo) => {
     campo.addEventListener("blur", () => verificaCampo());
 } )
 
-
 function verificaCampo(){
-    
+
 }
