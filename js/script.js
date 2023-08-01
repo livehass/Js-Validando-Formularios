@@ -1,3 +1,5 @@
+ import ehUmCpf from "./valida-cpf";
+
 const camposDoFormulario = document.querySelectorAll("[required]");
 
 camposDoFormulario.forEach((campo) => {
