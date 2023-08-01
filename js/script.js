@@ -5,7 +5,5 @@ camposDoFormulario.forEach((campo) => {
 })
 
 function verificaCampo(campo){
-    if(campo == 0){
-
-    }
+    console.log(campo);
 }
