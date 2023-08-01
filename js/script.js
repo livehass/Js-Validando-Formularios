@@ -7,3 +7,5 @@ camposDoFormulario.forEach((campo) => {
 function verificaCampo(campo){
     console.log(campo);
 }
+
+
