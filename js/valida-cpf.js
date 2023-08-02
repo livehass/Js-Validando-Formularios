@@ -1,6 +1,7 @@
 export default function ehUmCpf(campo){
     const cpf = campo.value.replace(/\.|-/g, "")
-    console.log(cpf);
+    validaNumerosRepetidos(cpf);
+    console.log(validaNumerosRepetidos(cpf));
 }
 
 function validaNumerosRepetidos(cpf) {
@@ -18,4 +19,5 @@ function validaNumerosRepetidos(cpf) {
                                                     
     ]
     return numerosRepetidos.includes(cpf)
+    //se o numero for igual ao array retorna true para repetido, se não false.
 }
