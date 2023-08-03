@@ -23,5 +23,6 @@ function validaNumerosRepetidos(cpf) {
 }
 
 function validaPrimeiroDigito(cpf) {
-    
+    let soma = 0;
+    let multiplicador = 10;
 }
