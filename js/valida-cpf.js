@@ -21,3 +21,7 @@ function validaNumerosRepetidos(cpf) {
     return numerosRepetidos.includes(cpf)
     //se o numero for igual ao array retorna true para repetido, se não false.
 }
+
+function validaPrimeiroDigito(cpf) {
+    
+}
