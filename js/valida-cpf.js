@@ -25,4 +25,8 @@ function validaNumerosRepetidos(cpf) {
 function validaPrimeiroDigito(cpf) {
     let soma = 0;
     let multiplicador = 10;
+
+    for( let tamanho = 0; tamanho < 9; tamanho++) {
+
+    }
 }
