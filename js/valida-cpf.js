@@ -1,5 +1,5 @@
 export default function ehUmCpf(campo){
-    const cpf = campo.value.replace(/\.|-/g, "")
+    const cpf = campo.value.replace(/\.|-/g, "s")
     if(validaNumerosRepetidos(cpf) || validaPrimeiroDigito(cpf) || ValidaSegundoDigito(cpf)) {
         console.log("Esse Cpf não existe");
     }else {
@@ -35,8 +35,9 @@ function validaPrimeiroDigito(cpf) {
         multiplicador--;
     
     }
-    
+     
     soma = (soma * 10) % 11;
+    console.log(soma);
     
     if(soma == 10 || soma == 11) {
        soma = 0;
