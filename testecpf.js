@@ -1,5 +1,5 @@
 
-var cpf = '2989143300';
+var cpf = '056930440';
 
     let soma = 0;
     let multiplicador = 10;
@@ -8,7 +8,7 @@ var cpf = '2989143300';
         multiplicador--;  
     }
     soma = (soma * 10) % 11;
-    
+
     var cpf2 = cpf += soma;
     let somar = 0;
     let add = 11;
