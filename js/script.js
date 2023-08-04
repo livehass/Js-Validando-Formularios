@@ -11,6 +11,9 @@ function verificaCampo(campo){
     if (campo.name == "cpf" && campo.value.length >= 11) {
         ehUmCpf(campo);
     }
+    if(campo.name == "aniversario" && campo.value != "" ) {
+        ehMaiorDeIdade(campo);
+    }
 }
 
 
