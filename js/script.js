@@ -1,4 +1,5 @@
  import ehUmCpf from "./valida-cpf.js";
+ import ehMaiorDeIdade from "./validaIdade.js";
 
 const camposDoFormulario = document.querySelectorAll("[required]")
 
