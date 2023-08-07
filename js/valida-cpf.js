@@ -7,7 +7,6 @@ export default function ehUmCPF(campo) {
     }
 }
 
-
 function validaNumerosRepetidos(cpf) {
     const numerosRepetidos = [
         '00000000000',

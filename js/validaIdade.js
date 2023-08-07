@@ -5,7 +5,7 @@ export default function ehMaiorDeIdade(campo) {
     console.log(validaIdade(dataNascimento));
 }
 
-function validaIdade(dataNascimento) {
+function validaIdade(data) {
     const dataAtual = new Date();
     const dataMais18 = new Date(data.getUTCFullYear() + 18, data.getUTCMonth(), data.getUTCDate());
     
