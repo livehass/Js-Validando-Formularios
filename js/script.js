@@ -5,6 +5,7 @@ const camposDoFormulario = document.querySelectorAll("[required]")
 
 camposDoFormulario.forEach((campo) => {
     campo.addEventListener("blur", () => verificaCampo(campo));
+    campo.addEventListener("invalid", e => e.preventDefault())
 })
 
 function verificaCampo(campo){
