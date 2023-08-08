@@ -8,6 +8,14 @@ camposDoFormulario.forEach((campo) => {
     campo.addEventListener("invalid", e => e.preventDefault())
 })
 
+const tiposDeErro = [
+    'valueMissing',
+    'typeMismatch',
+    'patternMismatch',
+    'tooShort',
+    'customError'
+]
+
 function verificaCampo(campo){
     if (campo.name == "cpf" && campo.value.length >= 11) {
         ehUmCpf(campo);
