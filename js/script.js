@@ -14,6 +14,7 @@ function verificaCampo(campo){
     if(campo.name == "aniversario" && campo.value != "" ) {
         ehMaiorDeIdade(campo);
     }
+    console.log(campo.validity);
 }
 
 
