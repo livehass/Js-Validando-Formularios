@@ -17,6 +17,8 @@ formulario.addEventListener("submit", (e) => {
     
     localStorage.setItem("cadastro", JSON.stringify(listaRespostas))
 
+})
+
 camposDoFormulario.forEach((campo) => {
     campo.addEventListener("blur", () => verificaCampo(campo));
     campo.addEventListener("invalid", e => e.preventDefault())
