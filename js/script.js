@@ -65,7 +65,6 @@ const mensagens = {
 }
 
 function verificaCampo(campo){
-
     let mensagem = "";
     campo.setCustomValidity('');
 
