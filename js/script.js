@@ -43,7 +43,7 @@ const mensagens = {
         customError: 'Você deve ser maior que 18 anos para se cadastrar.'
     },
     termos: {
-        valueMissing: 'Você deve aceitar nossos termos antes de continuar.',
+        valueMissing: 'Você deve aceitar nossos termos antes de continuar.'
     }
 }
 
