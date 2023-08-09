@@ -67,8 +67,13 @@ function verificaCampo(campo){
     const mensagemErro = campo.parentNode.querySelector('.mensagem-erro');
     const validadorDeInput = campo.checkValidity();
 
+    if(!validadorDeInput) {
+        mensagemErro.textContent = mensagem;    
+    }else {
 
-    
+    }
+
+ 
 }
 
 
