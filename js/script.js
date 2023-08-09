@@ -4,8 +4,8 @@
 const camposDoFormulario = document.querySelectorAll("[required]");
 const formulario = document.querySelector("[data-formulario]");
 
-formulario.addEventListener("submit", e => {
-
+formulario.addEventListener("submit", (e) => {
+    e.preventDefault();
 
 
 
