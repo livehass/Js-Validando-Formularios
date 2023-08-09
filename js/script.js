@@ -13,7 +13,7 @@ const tiposDeErro = [
     'typeMismatch',
     'patternMismatch',
     'tooShort',
-    'customError'
+    'customError'  
 ]
 
 const mensagens = {
