@@ -57,6 +57,7 @@ function verificaCampo(campo){
     if(campo.name == "aniversario" && campo.value != "" ) {
         ehMaiorDeIdade(campo);
     }
+
     tiposDeErro.forEach(erro => {
        if(campo.validity[erro]) {
             mensagem = mensagens[campo.name][erro];
